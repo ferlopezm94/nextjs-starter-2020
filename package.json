@@ -8,6 +8,8 @@
     "build": "next build",
     "commit": "git-cz",
     "dev": "next",
+    "develop": "ts-node-dev --respawn --no-notify --transpileOnly --project ./tsconfig.node.json",
+    "generate-sitemap": "yarn run develop scripts/generate-sitemap.ts",
     "lint": "eslint . --ext .js,.ts",
     "semantic-release": "semantic-release",
     "start": "next start",
@@ -42,6 +44,7 @@
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-prettier": "3.1.3",
     "eslint-plugin-react": "7.20.0",
+    "globby": "11.0.1",
     "husky": "4.2.5",
     "jest": "26.0.1",
     "lint-staged": "10.2.6",
@@ -49,6 +52,7 @@
     "react-test-renderer": "16.13.1",
     "semantic-release": "17.0.8",
     "ts-jest": "26.0.0",
+    "ts-node-dev": "1.0.0-pre.44",
     "typescript": "3.9.3"
   },
   "config": {

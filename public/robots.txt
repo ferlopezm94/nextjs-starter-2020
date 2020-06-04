@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://nextjs-starter.ferlopezm94.now.sh/sitemap.xml
