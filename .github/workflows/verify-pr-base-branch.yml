@@ -1,0 +1,15 @@
+name: Verify pull request base branch
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  verify-base-branch:
+    name: Verify base branch is dev
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Check base branch
+        if: github.head_ref != 'dev'
+        run: exit 1
