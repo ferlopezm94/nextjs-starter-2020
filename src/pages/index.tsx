@@ -19,7 +19,7 @@ const Home = () => {
           property='og:description'
           content='Run NextJS applications with typescript, eslint, prettier and semantic release support.'
         />
-        <meta property='og:url' content='https://https://nextjs-starter.ferlopezm94.now.sh' />
+        <meta property='og:url' content='https://nextjs-starter.ferlopezm94.now.sh' />
         <meta property='og:type' content='website' />
       </Head>
 
