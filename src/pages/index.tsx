@@ -3,7 +3,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div>
+    <div className='w-screen h-screen'>
       <Head>
         <title>Home | NextJS Starter</title>
         <link rel='icon' href='/favicon.ico' />
@@ -23,8 +23,8 @@ const Home = () => {
         <meta property='og:type' content='website' />
       </Head>
 
-      <main>
-        <p>Welcome to Next.js!</p>
+      <main className='w-full h-full flex justify-center items-center'>
+        <p className='text-black font-bold'>Welcome to your NextJS application!</p>
       </main>
     </div>
   );
