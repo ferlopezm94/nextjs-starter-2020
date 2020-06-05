@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Head from 'next/head';
 import React from 'react';
 
@@ -24,7 +25,14 @@ const Home = () => {
       </Head>
 
       <main className='w-full h-full flex justify-center items-center'>
-        <p className='text-black font-bold'>Welcome to your NextJS application!</p>
+        <div>
+          <p className='text-black font-bold'>Welcome to your NextJS application!</p>
+          <p className='text-black flex justify-around'>
+            <FontAwesomeIcon icon={['fab', 'apple']} size='2x' />
+            <FontAwesomeIcon icon='laptop-code' size='2x' />
+            <FontAwesomeIcon icon='rocket' size='2x' />
+          </p>
+        </div>
       </main>
     </div>
   );
