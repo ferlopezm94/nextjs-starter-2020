@@ -30,7 +30,7 @@ jobs:
         if: steps.cache-yarn-dir.outputs.cache-hit != 'true'
         run: yarn install --frozen-lockfile
       - name: Disable "include administrators" branch protection
-        uses: benjefferies/branch-protection-bot@1.0.2
+        uses: benjefferies/branch-protection-bot@1.0.4
         if: always()
         with:
           access-token: ${{ secrets.GH_TOKEN }}
@@ -40,7 +40,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx semantic-release
       - name: Enable "include administrators" branch protection
-        uses: benjefferies/branch-protection-bot@1.0.2
+        uses: benjefferies/branch-protection-bot@1.0.4
         if: always() # Force to always run this step to ensure "include administrators" is always turned back on
         with:
           access-token: ${{ secrets.GH_TOKEN }}
