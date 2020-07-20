@@ -1,7 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home page renders 1`] = `
-<div>
-  Welcome to Next.js!
+<div
+  className="w-screen h-screen"
+>
+  <main
+    className="w-full h-full flex justify-center items-center"
+  >
+    <div>
+      <p
+        className="text-black font-bold"
+      >
+        Welcome to your NextJS application!
+      </p>
+      <p
+        className="text-black flex justify-around"
+      />
+    </div>
+  </main>
 </div>
 `;
