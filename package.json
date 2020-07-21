@@ -1,6 +1,6 @@
 {
   "name": "nextjs-starter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Run NextJS applications with typescript, tailwindcss, and semantic release support.",
   "author": "Fenando López Martínez",
   "license": "MIT",
