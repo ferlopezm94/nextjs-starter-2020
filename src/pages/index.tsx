@@ -26,7 +26,7 @@ const Home = () => {
 
       <main className='w-full h-full flex justify-center items-center'>
         <div>
-          <p className='text-black font-bold'>Welcome to your NextJS application!</p>
+          <p className='text-black font-bold mb-4'>Welcome to your NextJS application!</p>
           <p className='text-black flex justify-around'>
             <FontAwesomeIcon icon={['fab', 'apple']} size='2x' />
             <FontAwesomeIcon icon='laptop-code' size='2x' />
