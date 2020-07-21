@@ -9,7 +9,7 @@ exports[`Home page renders 1`] = `
   >
     <div>
       <p
-        className="text-black font-bold"
+        className="text-black font-bold mb-4"
       >
         Welcome to your NextJS application!
       </p>
